@@ -26,3 +26,18 @@ This project demonstrates anomaly detection in laptop performance data. The Jupy
 3. **Interquartile Range (IQR) Anomalies**: Anomalies detected based on the range between Q1 and Q3.
 4. **Moving Average Anomaly Detection**: Anomalies detected using a rolling mean and standard deviation.
 5. **Isolation Forest**: Identifies anomalies by isolating data points in an ensemble method.
+
+   # Requirements
+
+1) matplotlib
+2) pandas
+3) seaborn
+4) statsmodels
+5) wmi
+6) psutil
+7) datetime
+8) Open Hardware Monitor App
+
+# Note
+
+To collect the sensor data, we need to execute the Python code while running the Open Hardware Monitor app in the background such that it extracts the sensor information. You can download the app from clicking the mentioned link, \href{https://openhardwaremonitor.org/}
