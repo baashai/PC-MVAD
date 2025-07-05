@@ -43,9 +43,15 @@ This project demonstrates anomaly detection in laptop performance data. The Jupy
 To collect the sensor data, we need to execute the Python code while running the Open Hardware Monitor app in the background such that it extracts the sensor information. You can download the app from clicking the mentioned link, \href{https://openhardwaremonitor.org/}
 
 
+If you use this dataset, please cite the following paper:
 
-If you use this dataset in your research or publication, please cite the following paper:
+> **Veena More\*, Sowmya Kella\*, Ramesh K\***  
+> *Large-Scale Curated Multivariate Time Series Anomaly Detection Dataset for Laptop Performance Metrics*  
+> Karnataka State Akkamahadevi Women’s University,  
+> State Highway 12, Athani Rd, Jnanashakti Campus, Torvi, Vijayapura – 586108, Karnataka, India. (2025)
 
+#### BibTeX
+```bibtex
 @misc{more2025laptopanomalydataset,
   author       = {Veena More and Sowmya Kella and Ramesh K},
   title        = {Large-Scale Curated Multivariate Time Series Anomaly Detection Dataset for Laptop Performance Metrics},
@@ -53,5 +59,7 @@ If you use this dataset in your research or publication, please cite the followi
   address      = {Vijayapura, Karnataka, India},
   year         = {2025},
   note         = {Please cite this work when using the dataset.}
+}
+ {Please cite this work when using the dataset.}
 }
 
